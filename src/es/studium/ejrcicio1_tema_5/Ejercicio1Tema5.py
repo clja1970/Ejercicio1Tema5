@@ -17,11 +17,11 @@ y=int(input ("introduce otro número entero: "))
 def fun (x,y):
     if x>y:
         return (x)
-    if y>x:
+    elif y>x:
         return (y)
         
 numeros=fun(x, y)
-print (numeros)
+print ("El número mayor es: "+ str(numeros))
    
     
     

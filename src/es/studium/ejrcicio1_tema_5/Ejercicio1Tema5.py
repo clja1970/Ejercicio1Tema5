@@ -20,7 +20,7 @@ def fun (x,y):
     elif y>x:
         return (y)
         
-numeros=fun(x, y)
+numeros=fun(x,y)
 print ("El número mayor es: "+ str(numeros))
    
     
